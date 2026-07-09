@@ -52,7 +52,7 @@ with st.sidebar:
 st.subheader("Paste News Article")
 
 news = st.text_area(
-    "",
+    "News Article",
     height=250,
     placeholder="Paste your news article here..."
 )
